@@ -349,3 +349,55 @@ Now that the integration is complete, we can test it out. Subscribe to notificat
 ![Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-19_15.01.12.gif](Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-19_15.01.12.gif)
 
 Subscribing to notifications.
+
+![Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/Screen_Shot_2021-05-20_at_10.04.51_AM.png](Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/Screen_Shot_2021-05-20_at_10.04.51_AM.png)
+
+Confirmation dialog that doesn't appear in previous GIF.
+
+### Confirm the Subscription
+
+Navigate to your [OneSignal account](https://app.onesignal.com/) and select the *OneSignal Nextjs* app.
+
+![Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_10.21.47.gif](Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_10.21.47.gif)
+
+Navigating to Audience to view subscribed users.
+
+Select *All Users* from the second level menu to see a list of all subscribed users.
+
+![Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/Screen_Shot_2021-05-20_at_10.28.52_AM.png](Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/Screen_Shot_2021-05-20_at_10.28.52_AM.png)
+
+I'm my only user 😅
+
+### Sending a Message
+
+Now that there's a subscriber, we can use OneSignal to push a web notification. Navigate to the campaigns page by selecting *Messages* from the top-level menu then clicking the *New Push* button.
+
+![Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_10.38.03.gif](Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_10.38.03.gif)
+
+Creating a push notification.
+
+Fill out the form to see what your notification will look like.
+
+![Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/Screen_Shot_2021-05-20_at_10.47.17_AM.png](Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/Screen_Shot_2021-05-20_at_10.47.17_AM.png)
+
+Notification that has been configured to go out immediately. 
+
+The notification preview shows what the message will look like for a Mac user who subscribed to the site using Chrome. Selecting different platforms changes the preview.
+
+![Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_10.50.25.gif](Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_10.50.25.gif)
+
+Previewing different platforms.
+
+It's important to check the preview for all platforms before pushing a notification. Since this is a demo, I'm going to push this notification even though the layout is broken for Android web notifications. 
+
+### Pushing a Notification
+
+![Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_11.01.39.gif](Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_11.01.39.gif)
+
+Native notification being displayed as result of pushing message.
+
+Clicking the notification opens the URL I entered in the *Launch URL* text field.
+
+![Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_11.16.07.gif](Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_11.16.07.gif)
+
+Taking action on notification.
