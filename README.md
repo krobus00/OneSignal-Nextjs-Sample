@@ -1,4 +1,4 @@
-# Integrating OneSignal into a Next.JS App
+# Integrating OneSignal into a Next.js App
 
 Created: May 11, 2021
 Created by: William Shepherd
