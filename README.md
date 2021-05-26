@@ -401,3 +401,6 @@ Clicking the notification opens the URL I entered in the *Launch URL* text field
 ![Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_11.16.07.gif](Integrating%20OneSignal%20into%20a%20Next%20JS%20App%2045906aacd7944a6aa7c1fa0d821e3456/2021-05-20_11.16.07.gif)
 
 Taking action on the notification.
+	  
+## Conclusion
+<marketing content>
