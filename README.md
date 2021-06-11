@@ -8,7 +8,7 @@ that you already know a little about Next.JS; my focus will be on the OneSignal
 integration. To make this guide as applicable to as many people as possible, I
 will start from scratch.
 
-OneSignal is <insert marketing here>.
+###### Marketing product info
 
 ## My system
 
@@ -467,4 +467,4 @@ Taking action on the notification.
 
 ## Conclusion
 
-<marketing content>
+###### marketing content
