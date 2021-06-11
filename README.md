@@ -22,44 +22,6 @@ At the time of writing, I had the following dependencies installed on my system:
 
 You should be able to follow along so long as you have Node version 14 or later.
 
-### Setting up a project workspace
-
-Starting from where you keep all your repos
-
-```bash
-╭─iamwillshepherd@ares ~/code
-╰─$ pwd
-/Users/iamwillshepherd/code
-```
-
-Create a new directory for the project
-
-```bash
-╭─iamwillshepherd@ares ~/code
-╰─$ mkdir onesignal-nexgtjs
-```
-
-Initialize git database in the directory
-
-```bash
-╭─iamwillshepherd@ares ~/code
-╰─$ cd onesignal-nexgtjs && git init
-Initialized empty Git repository in /Users/iamwillshepherd/code/onesignal-nexgtjs/.git/
-```
-
-### A note on branch names
-
-Depending on how you've configured git, new branch names may default to
-**_master_**. This walkthrough uses **_main_** as the default branch. If you'd
-like to follow this tutorial using the same branch name, execute
-`git branch -m main` to rename the default branch to **_main_.**
-
-If you're not a fan of using **_master_** as your default branch name, you
-change the default branch for all future repos by updating your global
-configuration settings for git.
-
-`git config --global init.defaultBranch main`
-
 ## Create your Next app
 
 Execute `yarn create next-app`.
