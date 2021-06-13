@@ -8,8 +8,6 @@ that you already know a little about Next.JS; my focus will be on the OneSignal
 integration. To make this guide as applicable to as many people as possible, I
 will start from scratch.
 
-###### Marketing product info
-
 ## My system
 
 At the time of writing, I had the following dependencies installed on my system:
