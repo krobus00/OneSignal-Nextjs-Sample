@@ -5,11 +5,12 @@ const useOneSignal = () =>
     window.OneSignal = window.OneSignal || [];
     OneSignal.push(function () {
       OneSignal.init({
-        appId: "Your App ID",
+        appId: "b290f6c5-b6dc-48b9-9170-4cb83cf240e2",
         notifyButton: {
           enable: true,
         },
         allowLocalhostAsSecureOrigin: true,
+        persistNotification: true,
       });
     });
 
