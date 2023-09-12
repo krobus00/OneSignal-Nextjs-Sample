@@ -5,7 +5,7 @@ const useOneSignal = () =>
     window.OneSignal = window.OneSignal || [];
     OneSignal.push(function () {
       OneSignal.init({
-        appId: "b290f6c5-b6dc-48b9-9170-4cb83cf240e2",
+        appId: "87699271-e2eb-4eb4-8792-85dff3cebb35",
         notifyButton: {
           enable: true,
         },
